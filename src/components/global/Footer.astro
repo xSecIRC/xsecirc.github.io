@@ -1,0 +1,24 @@
+---
+import moneroQR from '../../images/monero.png';
+import bitcoinQR from '../../images/bitcoin.png';
+---
+<footer class="border-white/20 border-b bg-accent-500">
+  <div class="mx-auto p-8 items-start justify-between w-full">
+    <div class="text-white text-center items-center mx-auto">
+      <div class="mt-8">
+        <p class="uppercase font-black text-lg">Donations</p>
+        <div class="mt-4 text-sm">
+            <p>Monero: 8BSj4h8KgwEXqSNvrjSZQSJdy9dmp1MJDFk3Hkx9DPeBEXCqrnR132GYy6PEYwYxkwG6jgaEjKNvmPVZctBJ6RezJNY1sLp</p>
+            <p>Bitcoin: bc1qu2lxdf8n6f83cn95hm4frkhsh3slp9c38ejxp8</p>
+        </div>
+        <div class="mt-8">
+            <p class="uppercase font-black text-lg">QR Code</p>
+            <div class="flex justify-center mt-4">
+                <img src={moneroQR.src} alt="Monero QR Code" class="w-32 h-32 mr-4">
+                <img src={bitcoinQR.src} alt="Bitcoin QR Code" class="w-32 h-32">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
