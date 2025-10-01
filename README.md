@@ -1,4 +1,4 @@
-# xSecIRC/astromax
+# xSecIRC
 
 A personal website built with Astro and Tailwind CSS, automatically deployed to GitHub Pages.
 
@@ -44,3 +44,4 @@ Inside of your Astro project, you'll see the following folders and files:
 - Reusable components are in `src/components/`.
 - Static assets that are processed by Astro (like images) are in `src/images/`.
 - The GitHub Actions workflow is in `.github/workflows/`.
+
